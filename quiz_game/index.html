@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    
+     <head>
+        <title>QUIZ GAME</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+     </head>
+
+     <body>    
+         <div class="main">
+            <div class="box" id="box">
+                <h2 id="quebox"></h2>
+
+                <label for="op-1">
+                    <div class="row">
+                        <input class="options" type="radio" value="a" id="op-1" name="ans">
+                        <label for="op-1"></label>
+                    </div>
+                </label>
+
+                <label for="op-2">
+                    <div class="row">
+                        <input class="options" type="radio" value="b" id="op-2" name="ans"> 
+                        <label for="op-2"></label>                  
+                    </div>
+                </label>
+              
+                <label for="op-3">
+                    <div class="row">
+                        <input class="options" type="radio" value="c" id="op-3" name="ans">
+                        <label for="op-3"></label>                       
+                    </div>
+                </label>
+
+                <label for="op-4">
+                    <div class="row">
+                        <input class="options" type="radio" value="d" id="op-4" name="ans">
+                        <label for="op-4"></label>
+                    </div>
+                </label>
+
+                    <div class="btn" onclick="submitQuiz()">
+                          submit
+                    </div>
+                    <div id="check">
+
+                    </div>
+                </div>
+                
+            </div>
+        </body>
+
+     <script src="func.js"></script>
+
+</html>
